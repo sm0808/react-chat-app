@@ -1,0 +1,49 @@
+.container {
+  padding: 30px;
+}
+.expense-tracker {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .expense-tracker h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .expense-tracker input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .expense-tracker button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .expense-tracker ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .expense-tracker li {
+    margin-bottom: 5px;
+  }
+  
+  .expense-tracker li button {
+    padding: 3px 6px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  

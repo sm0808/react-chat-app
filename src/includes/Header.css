@@ -1,0 +1,28 @@
+  .header {
+    background-color: #075b9a;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header .nav-link {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 20px;
+    line-height: 0;
+    padding: 0 18px;
+    text-decoration: none;
+  }
+
+  .header .nav-link.active:after {
+        content: "";
+        height: 2px;
+        position: absolute;
+        top: 7%;
+        display: block;
+        opacity: 0;
+        background: #fff;
+        width: 18px;
+        opacity: 1;
+    }
